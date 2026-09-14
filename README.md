@@ -31,6 +31,8 @@ These values were recorded during the completed term-project experiments on a se
 
 The TTA result improved accuracy by 1.63 percentage points over standard EfficientNet-B3+CBAM inference. These are historical project results, not guaranteed results for every reproduction.
 
+The complete methodology, per-class metrics, confusion matrices, ablation study, and Grad-CAM analysis are available in the [`final project report`](docs/brain_tumor_reportfinal.docx).
+
 ## Architecture
 
 The primary pipeline is:
@@ -105,6 +107,8 @@ Generated checkpoints are written to `artifacts/models/` by default. Set `BRAIN_
 .
 ├── data/
 │   └── README.md
+├── docs/
+│   └── brain_tumor_reportfinal.docx
 ├── notebooks/
 │   └── brain_tumor_pytorch_cbam.ipynb
 ├── results/
