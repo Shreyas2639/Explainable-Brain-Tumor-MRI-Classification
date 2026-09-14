@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/Training/
+data/Testing/
+*.zip
+
+# Models and generated artifacts
+*.pth
+*.pt
+*.ckpt
+artifacts/
+
+# Node and editor files
+node_modules/
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
