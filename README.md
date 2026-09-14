@@ -31,8 +31,6 @@ These values were recorded during the completed term-project experiments on a se
 
 The TTA result improved accuracy by 1.63 percentage points over standard EfficientNet-B3+CBAM inference. These are historical project results, not guaranteed results for every reproduction.
 
-![Model accuracy comparison](results/model_comparison.png)
-
 ## Architecture
 
 The primary pipeline is:
@@ -53,8 +51,6 @@ The backbone is initially frozen while the attention and classification layers l
 ## Explainability
 
 Grad-CAM highlights image regions that influence each prediction. The visualizations are useful for inspecting model behavior and identifying failure patterns, but they do not establish clinical validity or causal reasoning.
-
-![Grad-CAM examples](results/gradcam_examples.png)
 
 ## Dataset
 
@@ -112,11 +108,7 @@ Generated checkpoints are written to `artifacts/models/` by default. Set `BRAIN_
 ├── notebooks/
 │   └── brain_tumor_pytorch_cbam.ipynb
 ├── results/
-│   ├── efficientnet_b3_cbam_curves.png
-│   ├── efficientnet_b3_cbam_tta_confusion.png
-│   ├── gradcam_examples.png
-│   ├── model_comparison.csv
-│   └── model_comparison.png
+│   └── model_comparison.csv
 ├── .gitignore
 ├── README.md
 └── requirements.txt
